@@ -11,3 +11,15 @@
     justify-content: center;
     align-items: center;
 }
+.advantages{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.advantages div{
+    width: 25vw;
+    color: #333333;
+    font-size: 13px;
+    text-align: center;
+}
