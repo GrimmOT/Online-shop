@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.copyright{
+    background-color: black;
+    font-size: 16px;
+    color: #b3b3b3;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
