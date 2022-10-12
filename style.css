@@ -46,13 +46,24 @@
     justify-content: space-around;
     align-items: center;
 }
-.email__regestration b{
+.nav-links{
+    width: 13vw;
+    display: flex;
+    justify-content: space-around;
+}
+.email__regestration{
+    width: 30vw;
     color: #333333;
     font-size: 16px;
+    border-bottom: 2px solid #333333;
 }
 input[type="email"]{
     width: 465px;
     color: #333333;
+    border: none;
+    outline: none;
     font-weight: 700;
-    border: bottom 1px solid #4f4f4f;
+}
+.email__regestration img{
+    display: inline-block;
 }
