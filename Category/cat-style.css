@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.сategory{
+    margin-top: 80px;
+    font-size: 40px;
+    color: #333333;
+    margin-left: 150px;
+}
+.block1__shop{
+    width: 1255px;
+    height: 500px;
+    background-color: #fbfbfb;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.shop_line1 div{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.nextpage_buttom{
+    display: flex;
+    justify-self: end;
+}
