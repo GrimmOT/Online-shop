@@ -29,18 +29,11 @@
     justify-content: space-around;
     align-items: center;
 }
-.footer_centerblock{
-    width: 30vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.pictures img{
+    width: 100vw;
+    margin: 0px;
 }
-.footer_centerblock div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.content{
+.regestration{
     height: 164px;
     display: flex;
     justify-content: space-around;
@@ -78,7 +71,7 @@ input[type="email"]{
     width: 2px;
     background-color: #BDBDBD;
 }
-.content p{
+.regestration p{
     font-size: 17px;
     color: #333333;
 }
@@ -99,6 +92,8 @@ input[type="email"]{
     flex-direction: column;
     align-self: center;
     transform: scale(0.7,0.7);
+    position: relative;
+    bottom:30px;
 }
 .block1_pictures{
     width: 90%;
@@ -117,4 +112,43 @@ input[type="email"]{
     font-size: 14px;
     color:  grey;
     line-height: 40px;
+}
+.footer_centerblock{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_centerblock div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kategori{
+    margin-top: 80px;
+    font-size: 40px;
+    color: #333333;
+    margin-left: 150px;
+}
+.block1__shop{
+    width: 1255px;
+    height: 500px;
+    background-color: #fbfbfb;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+}
+.shop_line1 div{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.nextpage_buttom{
+    display: flex;
+    justify-self: end;
+    
 }
