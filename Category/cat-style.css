@@ -22,6 +22,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    position: relative;
+    padding-right: 60px ;
 }
 .card{
     width: 160px;
@@ -33,8 +35,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    text-align: center;
 
 }
+
 .shop__line{
     display: flex;
     justify-content: space-around;
@@ -42,4 +46,12 @@
 .nextpage_buttom{
     display: flex;
     justify-self: end;
+}
+.block1__shop::after{
+    content: "";
+    width: 70px;
+    height: 70px;
+    background-image: url(img/Arrow.svg);
+    position: absolute;
+    right: 15px;
 }
