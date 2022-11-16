@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    background-color: rgb(230, 230, 230);
+}
+.card{
+    width: 230px;
+    height: 285px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.personal_information{
+    display: flex;
+    justify-content: space-around;
+}
+.personal_name{
+    text-align: center;
+    color: #ADB8CC ;
+    font-size: 13px;
+    position: relative;
+    right: 20px;
+}
+.personal_image{
+    position: relative;
+    left: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.item-text{
+    color: #6B7A99;
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+}
+.some_information{
+    display: flex;
+    justify-content: space-around;
+}
+.counter{
+    color: #6B7A99;
+    font-size: 12px;
+    position: relative;
+    right: 10px;
+}

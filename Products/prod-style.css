@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     font-family: 'Roboto Condensed', sans-serif;
+    /* box-sizing: border-box; */
 }
 .carousel{
     display: flex;
@@ -29,7 +30,13 @@
     display: flex;
     justify-content: space-around;
 }
+/* .products{
+    padding-left: 30px;
+    padding-right: 30px;
+} */
 .product-card{
     height: 510px;
     width: 323px;
 }
+
+
