@@ -1,0 +1,10 @@
+@media only screen and (max-width: 768px)
+{
+    .carousel .carousel-card:nth-child(3), .carousel .carousel-card:nth-child(4){
+        display: none;
+    }
+    .shop__line{
+        width: 768px;
+        flex-wrap: wrap;
+    }
+}

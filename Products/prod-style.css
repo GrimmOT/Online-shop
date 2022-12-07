@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     font-family: 'Roboto Condensed', sans-serif;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 .carousel{
     display: flex;
@@ -18,16 +18,24 @@
     align-items: center;
     justify-content: space-around;
     font-size: 14px;
-}
-.carousel-card div{
-    border-radius: 5px;
     border: 2px solid black;
+    border-radius: 5px;
+}
+.carousel-card img{
+    width: 100%;
+}
+.carousel-card:first-child img, .carousel-card:last-child img{
+    width: 45%;
+}
+.carousel .carousel-card:nth-child(1), .carousel .carousel-card:nth-child(6){
+    border: none;
 }
 .reverse{
     transform: scale(-1, 1);
 }
 .shop__line{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 /* .products{
@@ -49,6 +57,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
 }
 .popup-content{
     width: 70vw;
